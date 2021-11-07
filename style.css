@@ -50,6 +50,7 @@ nav img#logo {
   padding-right: 20px;
   color: #353535;
   font-weight: 600;
+  font-size: initial;
 }
 
 #explor {
@@ -63,9 +64,6 @@ nav img#logo {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   height: 250px;
   background-color: #f6f6f6;
 }
@@ -73,10 +71,26 @@ nav img#logo {
 #explor h1 {
   width: 231px;
   text-align: center;
+  padding-top: 30px;
+  margin: 0;
 }
 
 #explor p.explor__p {
   text-align: center;
   width: 265px;
+  color: #545252;
+}
+
+#explor button.explor__button {
+  width: 200px;
+  border-radius: 25px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(354deg, #9356dc, #ff79da);
+  border: none;
+  -webkit-box-shadow: 0px 1px 5px -1px black;
+          box-shadow: 0px 1px 5px -1px black;
+  font-weight: 600;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
