@@ -1,1 +1,82 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-weight: initial;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 0;
+  width: 100%;
+  font-family: "Shrikhand";
+}
+
+nav img#logo {
+  width: 160px;
+}
+
+#search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #eaeaea;
+  -webkit-box-shadow: 0px 3px 5px 0px #d5d5d5 inset;
+          box-shadow: 0px 3px 5px 0px #d5d5d5 inset;
+}
+
+#search i.fas.fa-map-marker-alt.search-icon {
+  padding-right: 15px;
+  color: #353535;
+}
+
+#search p.search__p {
+  padding-right: 20px;
+  color: #353535;
+  font-weight: 600;
+}
+
+#explor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 250px;
+  background-color: #f6f6f6;
+}
+
+#explor h1 {
+  width: 231px;
+  text-align: center;
+}
+
+#explor p.explor__p {
+  text-align: center;
+  width: 265px;
+}
+/*# sourceMappingURL=style.css.map */

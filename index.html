@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Shrikhand&display=swap" rel="stylesheet">
+    <!-- import style -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Ohmyfood</title>
@@ -14,24 +16,27 @@
 <body>
     <!----------- header ----------->
     <header>
-        <img src="./images/logo/ohmyfood@2x.svg" alt="lodo ohmyfood">
+        <nav>
+        <img src="./images/logo/ohmyfood@2x.svg" alt="lodo ohmyfood" id="logo">
+        </nav>
     </header>
     <!-----------  main  ----------->
     <main>
         <section id="search">
-            <i class="fas fa-map-marker-alt">Paris, Belleville</i>
+            <i class="fas fa-map-marker-alt search-icon"></i>
+            <p class="search__p">Paris, Belleville</p>
         </section>
         <section id="explor">
             <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception,sélectionnés par nos soins.</p>
+            <p class="explor__p">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
             <button>Explorez nos restaurants</button>
         </section>
         <section id="fonction">
             <h2>Fonctionnement</h2>
             <ol>
-                <li class="phone"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
-                <li class="list"><i class="fas fa-list-ul"></i>Composez votre menu</li>
-                <li class="store"><i class="fas fa-store"></i>Dégustez au restaurant</li>
+                <li class="fonction__phone"><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
+                <li class="fonction__list"><i class="fas fa-list-ul"></i>Composez votre menu</li>
+                <li class="fonction__store"><i class="fas fa-store"></i>Dégustez au restaurant</li>
             </ol>
         </section>
     <!--------- restaurant --------->
