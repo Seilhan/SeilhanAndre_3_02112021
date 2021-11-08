@@ -127,6 +127,11 @@ nav {
     span.text {
         font-weight: 600;
     }
-    
-    
+}
+    #restaurant {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
 }

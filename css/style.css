@@ -130,4 +130,12 @@ nav #logo {
   font-weight: 600;
 }
 
+#restaurant {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
