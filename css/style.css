@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+body {
+  padding: 10;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  font-family: "Roboto" sans-serif;
+  font-size: 15px;
+  font-weight: initial;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+  width: 100%;
+  font-family: "Shrikhand";
+}
+nav #logo {
+  width: 160px;
+}
+
+#search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #eaeaea;
+  box-shadow: 0px 3px 5px 0px #d5d5d5 inset;
+}
+#search i.fas.fa-map-marker-alt.search-icon {
+  padding-right: 15px;
+  color: #353535;
+}
+#search p.search__p {
+  padding-right: 20px;
+  color: #353535;
+  font-weight: 600;
+  font-size: initial;
+}
+
+#explor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  background-color: #f6f6f6;
+}
+#explor h1 {
+  width: 231px;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 600;
+  font-size: 22px;
+}
+#explor p.explor__p {
+  text-align: center;
+  width: 265px;
+  padding-top: 15px;
+  color: #545252;
+}
+#explor button.explor__button {
+  width: 200px;
+  border-radius: 25px;
+  height: 45px;
+  color: white;
+  background: linear-gradient(354deg, #9356dc, #ff79da);
+  border: none;
+  box-shadow: 0px 1px 5px -1px black;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+#fonction {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+#fonction h2 {
+  padding: 45px 0 0 15px;
+  font-size: 22px;
+  font-weight: 600;
+}
+#fonction ol {
+  padding: 35px 20px 35px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#fonction .fonction__list {
+  width: 100%;
+  height: 65px;
+  border-radius: 20px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 7px 14px 20px 0px #eaeaea;
+}
+#fonction .fonction__list__numb {
+  width: 25px;
+  height: 25px;
+  margin-left: -10px;
+  margin-right: 30px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  background-color: #9356DC;
+  color: white;
+  justify-content: center;
+}
+#fonction .fa-mobile-alt {
+  padding-right: 32px;
+  color: gray;
+  font-size: larger;
+}
+#fonction .fa-list-ul {
+  padding-right: 32px;
+  color: gray;
+  font-size: larger;
+}
+#fonction .fa-store {
+  padding-right: 32px;
+  color: gray;
+  font-size: larger;
+}
+#fonction span.text {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
