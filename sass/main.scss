@@ -76,6 +76,7 @@ nav {
     flex-direction: column;
     width: auto;
     height: auto;
+    padding: 0 20px;
     h2 {
     padding: 45px 0 0 15px;
     font-size: 22px;
@@ -134,7 +135,7 @@ nav {
         flex-wrap: nowrap;
         width: 100%;
         height: auto;
-        padding: 0 15px;
+        padding: 0 20px;
         background-color: #f6f6f6;
         h2 {
             padding: 45px 0 25px 0;
@@ -154,7 +155,7 @@ nav {
         box-shadow: 7px 14px 20px 0px #eaeaea;
     }
     .card__photo {
-        height: 175px;
+        height: 160px;
         width: 100%;
         object-fit: cover;
     }
