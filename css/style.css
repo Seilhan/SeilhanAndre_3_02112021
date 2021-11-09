@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
 body {
   padding: 0;
   margin: 0;
@@ -16,6 +17,7 @@ nav {
   width: 100%;
   font-family: "Shrikhand";
 }
+
 nav #logo {
   width: 160px;
 }
@@ -29,10 +31,12 @@ nav #logo {
   background-color: #eaeaea;
   box-shadow: 0px 3px 5px 0px #d5d5d5 inset;
 }
+
 #search i.fas.fa-map-marker-alt.search-icon {
   padding-right: 15px;
   color: #353535;
 }
+
 #search p.search__p {
   padding-right: 20px;
   color: #353535;
@@ -47,6 +51,7 @@ nav #logo {
   height: 250px;
   background-color: #f6f6f6;
 }
+
 #explor h1 {
   width: 231px;
   text-align: center;
@@ -54,12 +59,14 @@ nav #logo {
   font-weight: 600;
   font-size: 22px;
 }
+
 #explor p.explor__p {
   text-align: center;
   width: 265px;
   padding-top: 15px;
   color: #545252;
 }
+
 #explor button.explor__button {
   width: 200px;
   border-radius: 25px;
@@ -79,17 +86,20 @@ nav #logo {
   height: auto;
   padding: 0 20px;
 }
+
 #fonction h2 {
   padding: 45px 0 0 15px;
   font-size: 22px;
   font-weight: 600;
 }
+
 #fonction ol {
   padding: 35px 20px 65px 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 #fonction .fonction__list {
   width: 100%;
   height: 65px;
@@ -100,6 +110,7 @@ nav #logo {
   align-items: center;
   box-shadow: 7px 14px 20px 0px #eaeaea;
 }
+
 #fonction .fonction__list__numb {
   width: 25px;
   height: 25px;
@@ -112,21 +123,25 @@ nav #logo {
   color: white;
   justify-content: center;
 }
+
 #fonction .fa-mobile-alt {
   padding-right: 32px;
   color: gray;
   font-size: larger;
 }
+
 #fonction .fa-list-ul {
   padding-right: 32px;
   color: gray;
   font-size: larger;
 }
+
 #fonction .fa-store {
   padding-right: 32px;
   color: gray;
   font-size: larger;
 }
+
 #fonction span.text {
   font-weight: 600;
 }
@@ -140,6 +155,7 @@ nav #logo {
   padding: 0 20px 60px;
   background-color: #f6f6f6;
 }
+
 #restaurant h2 {
   padding: 45px 0 25px 0;
   font-size: 22px;
@@ -151,6 +167,7 @@ nav #logo {
   flex-direction: column;
   gap: 20px;
 }
+
 .cards .card {
   border-radius: 20px;
   overflow: hidden;
@@ -158,15 +175,18 @@ nav #logo {
   flex-direction: column;
   box-shadow: 7px 14px 20px 0px #eaeaea;
 }
+
 .cards .card__photo {
   height: 175px;
   width: 100%;
   object-fit: cover;
   object-position: bottom;
 }
+
 .cards .card__photo.img2 {
   object-position: 50% 61%;
 }
+
 .cards .card__content {
   display: flex;
   flex-direction: row;
@@ -175,14 +195,43 @@ nav #logo {
   padding: 15px;
   background-color: white;
 }
+
 .cards h3 {
   font-size: 22px;
   font-weight: 600;
 }
-.cards i.far.fa-heart {
-  font-size: 20px;
+
+.cards .card__like {
+  color: inherit;
+  position: relative;
+  width: 24px;
+  height: 24px;
   margin: 7px 10px 0 0;
+  cursor: pointer;
 }
+
+.cards .card__like:hover i.fas {
+  transform: scale(1);
+}
+
+.cards .card__like:hover i.far {
+  transform: scale(0.9);
+}
+
+.cards .card__like i {
+  font-size: 24px;
+  position: absolute;
+  transition: all 0.3s;
+  color: gray;
+}
+
+.cards .card__like i.fas {
+  background: linear-gradient(45deg, #f576da, #9356dc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(0);
+}
+
 .cards figure.nouveau {
   display: flex;
   flex-direction: row;
@@ -190,6 +239,7 @@ nav #logo {
   justify-content: flex-end;
   position: relative;
 }
+
 .cards figcaption {
   display: flex;
   position: absolute;
@@ -209,16 +259,32 @@ footer {
   width: 100%;
   background-color: #353535;
   color: white;
+  padding: 30px 20px;
 }
-footer .footer__main__logo {
-  width: 100px;
-  height: 17px;
-}
-footer .ul__footer.li {
+
+.footer {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 30px 0 0 20px;
+}
+
+.footer__icon {
+  width: 30px;
+}
+
+.footer__link li {
+  padding-bottom: 6px;
+}
+
+.footer__logo {
+  width: 100px;
+  height: 17px;
+  filter: invert(1);
+  margin-bottom: 20px;
+}
+
+.footer__link a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
