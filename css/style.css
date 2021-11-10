@@ -254,6 +254,18 @@ footer {
   right: 15px;
 }
 
+#img__menu {
+  position: relative;
+}
+
+#carte__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
 .button1 {
   width: 200px;
   border-radius: 25px;
