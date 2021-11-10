@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 body {
   padding: 0;
@@ -263,6 +264,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: auto;
   background-color: #F6F6F6;
   position: relative;
   border-radius: 35px;
@@ -282,6 +284,69 @@ footer {
 .title__menu i.far.fa-heart {
   font-size: 24px;
   color: gray;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 0 15px 0 15px;
+  gap: 40px;
+}
+
+.menu__entrée {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.h2__title {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.menu__content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+  width: 100%;
+  height: 68px;
+  border-radius: 15px;
+  padding: 15px 10px;
+  justify-content: center;
+  box-shadow: 2px 5px 9px 1px #b9b6b6bf;
+}
+.menu__content .content__title {
+  font-weight: 500;
+  font-size: 110%;
+}
+.menu__content .content__p {
+  font-size: inherit;
+  font-weight: 300;
+}
+.menu__content p.price {
+  margin: 20px 13px 0;
+  font-weight: 500;
+}
+
+.menu__plat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
+}
+
+.menu__dessert {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 15px;
 }
 
 .button1 {
