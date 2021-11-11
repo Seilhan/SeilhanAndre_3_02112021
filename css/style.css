@@ -255,16 +255,14 @@ footer {
   right: 15px;
 }
 
-img#logo {
-  position: relative;
-}
-img#logo .fas.fa-arrow-left {
+a.button {
   display: flex;
-  justify-content: center;
   position: absolute;
-  align-items: center;
-  margin-left: -300px;
-  padding-top: 8px;
+  margin-left: -80%;
+  padding-top: 3px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
 }
 
 #img__menu {
@@ -291,7 +289,7 @@ img#logo .fas.fa-arrow-left {
 }
 .title__menu h1 {
   font-family: "Shrikhand";
-  font-size: 25px;
+  font-size: 28px;
 }
 .title__menu .far.fa-heart {
   font-size: 24px;

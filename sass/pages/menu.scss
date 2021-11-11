@@ -1,15 +1,13 @@
-img#logo {
-    position: relative;
-
-    .fas.fa-arrow-left {
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        align-items: center;
-        margin-left: -300px;
-        padding-top: 8px;
-    }
+a.button {
+    display: flex;
+    position: absolute;
+    margin-left: -80%;
+    padding-top: 3px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
 }
+
 
 #img__menu {
     width: 100%;
@@ -35,7 +33,7 @@ img#logo {
 
     & h1 {
         font-family: 'Shrikhand';
-        font-size: 25px;
+        font-size: 28px;
     }
 
     .far.fa-heart {
