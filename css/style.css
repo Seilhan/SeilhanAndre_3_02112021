@@ -270,6 +270,11 @@ a.button {
   height: 255px;
   object-fit: cover;
 }
+#img__menu img.la__note {
+  width: 100%;
+  object-fit: cover;
+  height: inherit;
+}
 
 #carte__menu {
   display: flex;
