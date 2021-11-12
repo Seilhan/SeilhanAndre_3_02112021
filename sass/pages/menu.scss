@@ -11,7 +11,8 @@ a.button {
 
 #img__menu {
     width: 100%;
-    height: 200px;
+    height: 255px;
+    object-fit: cover;
 }
 
 #carte__menu {
@@ -21,7 +22,9 @@ a.button {
     height: auto;
     background-color: #F6F6F6;
     position: relative;
-    border-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: -50px;
 }
 
 .title__menu {
@@ -79,6 +82,16 @@ a.button {
     padding: 15px 10px;
     justify-content: center;
     box-shadow: 2px 5px 9px 1px #b9b6b6bf;
+
+    .détail__food {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .price__content {
+            display: flex;
+        }
+    }
 
     .content__title {
         font-weight: 500;
