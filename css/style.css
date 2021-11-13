@@ -163,7 +163,7 @@ footer {
   flex-wrap: nowrap;
   width: 100%;
   height: auto;
-  padding: 0 20px 60px;
+  padding: 30px 20px 60px;
   background-color: #f6f6f6;
 }
 #restaurant h3 {
@@ -200,7 +200,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  padding: 15px;
+  padding: 5px 15px 15px 15px;
   background-color: white;
 }
 .cards h3 {
