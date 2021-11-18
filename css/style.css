@@ -287,6 +287,34 @@ a.button {
   margin-top: -50px;
 }
 
+.card__like {
+  color: inherit;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin: 15px 10px 0 0;
+  cursor: pointer;
+}
+.card__like:hover i.fas {
+  transform: scale(1);
+}
+.card__like:hover i.far {
+  transform: scale(0.9);
+}
+.card__like i {
+  font-size: 24px;
+  position: absolute;
+  transition: all 0.3s;
+  color: gray;
+}
+.card__like i.fas {
+  background: linear-gradient(45deg, #FF79DA, #9356dc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: scale(0);
+}
+
 .title__menu {
   display: flex;
   flex-direction: row;
@@ -394,6 +422,7 @@ a.button {
   box-shadow: 0px 1px 5px -1px black;
   font-weight: 600;
   margin-top: 35px;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
