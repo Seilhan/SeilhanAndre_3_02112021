@@ -23,3 +23,36 @@
     margin-top: 35px;
     cursor: pointer;
 }
+
+.card__like {
+    color: inherit;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 4px 0 0;
+    cursor: pointer;
+
+    &:hover i.fas {
+        transform: scale(1);
+    }
+
+    &:hover i.far {
+        transform: scale(0.9);
+    }
+
+    i {
+        font-size: 24px;
+        position: absolute;
+        transition: all .3s;
+        color: gray;
+
+        &.fas {
+
+            background: linear-gradient(45deg, #FF79DA, #9356dc);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transform: scale(0);
+        }
+    }
+}
