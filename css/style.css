@@ -418,7 +418,6 @@ a.button {
 .menu__content {
   display: flex;
   align-content: space-between;
-  align-items: center;
   width: 100%;
   height: 70px;
   overflow: hidden;
@@ -432,13 +431,13 @@ a.button {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
-.menu__content:hover .valid {
-  width: 70px;
-}
-.menu__content.valid__icon {
+.menu__content:hover .fas.fa-check-circle {
   font-size: x-large;
   transform: rotate(360deg);
   transition: 0.3s;
+}
+.menu__content:hover .valid {
+  width: 70px;
 }
 .menu__content .détail__food {
   display: flex;
@@ -456,14 +455,14 @@ a.button {
   justify-content: center;
   background: #99E2D0;
   color: white;
-  transition: 0.5s;
+  transition: 0.75s;
   width: 0;
   overflow: hidden;
 }
 .menu__content .valid:hover {
   width: 70px;
 }
-.menu__content .valid .fas.fa-check-circle {
+.menu__content .valid:hover .fas.fa-check-circle {
   font-size: x-large;
   transform: rotate(360deg);
   transition: 0.3s;
