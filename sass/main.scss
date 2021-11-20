@@ -30,6 +30,10 @@
     font-weight: 600;
     margin-top: 35px;
     cursor: pointer;
+
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 
 .card__like {
