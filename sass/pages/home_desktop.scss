@@ -1,0 +1,19 @@
+#fonction ol {
+    flex-direction: row;
+}
+
+#restaurant {
+    justify-content: center;
+
+    .cards {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 25px;
+        width: 100%;
+    }
+
+    .cards .card__content {
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}

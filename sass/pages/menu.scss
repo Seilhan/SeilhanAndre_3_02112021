@@ -92,6 +92,12 @@ a.button {
     gap: 20px;
 }
 
+.food__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .menu__entrée {
     display: flex;
     flex-direction: column;
@@ -141,17 +147,17 @@ a.button {
     opacity: 0;
     transform: translateY(0px);
     animation-name: card-anime;
-    animation-duration: 0.5s;
+    animation-duration: 0.4s;
     animation-fill-mode: forwards;
 
     &:hover .fas.fa-check-circle {
-        font-size: x-large;
         transform: rotate(360deg);
-        transition: 0.3s;
+        transition: 0.5s;
+
     }
 
     &:hover .valid {
-        width: 70px;
+        width: 60px;
     }
 
     .détail__food {
@@ -171,19 +177,11 @@ a.button {
         justify-content: center;
         background: #99E2D0;
         color: white;
-        transition: .75s;
+        transition: .5s;
         width: 0;
         overflow: hidden;
+        font-size: 20px;
 
-        &:hover {
-            width: 70px;
-        }
-
-        &:hover .fas.fa-check-circle {
-            font-size: x-large;
-            transform: rotate(360deg);
-            transition: 0.3s;
-        }
     }
 
     .content__title {

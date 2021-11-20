@@ -11,6 +11,14 @@
 @import "pages/menu.scss";
 
 
+@media (min-width: 992px) {
+    @import "header_footer_desktop.scss";
+    @import "pages/home_desktop.scss";
+    @import "pages/menu_desktop.scss";
+}
+
+
+
 .button1 {
     width: 200px;
     border-radius: 25px;

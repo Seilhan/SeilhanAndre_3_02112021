@@ -13,7 +13,7 @@ body {
 nav {
   display: flex;
   justify-content: center;
-  padding: 15px 0;
+  padding: 15px;
   width: 100%;
   font-family: "Shrikhand";
 }
@@ -340,6 +340,12 @@ a.button {
   gap: 20px;
 }
 
+.food__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .menu__entrée {
   display: flex;
   flex-direction: column;
@@ -428,16 +434,15 @@ a.button {
   opacity: 0;
   transform: translateY(0px);
   animation-name: card-anime;
-  animation-duration: 0.5s;
+  animation-duration: 0.4s;
   animation-fill-mode: forwards;
 }
 .menu__content:hover .fas.fa-check-circle {
-  font-size: x-large;
   transform: rotate(360deg);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .menu__content:hover .valid {
-  width: 70px;
+  width: 60px;
 }
 .menu__content .détail__food {
   display: flex;
@@ -455,17 +460,10 @@ a.button {
   justify-content: center;
   background: #99E2D0;
   color: white;
-  transition: 0.75s;
+  transition: 0.5s;
   width: 0;
   overflow: hidden;
-}
-.menu__content .valid:hover {
-  width: 70px;
-}
-.menu__content .valid:hover .fas.fa-check-circle {
-  font-size: x-large;
-  transform: rotate(360deg);
-  transition: 0.3s;
+  font-size: 20px;
 }
 .menu__content .content__title {
   font-weight: 500;
@@ -515,6 +513,48 @@ a.button {
   padding-bottom: 80px;
 }
 
+@media (min-width: 992px) {
+  #fonction ol {
+    flex-direction: row;
+  }
+
+  #restaurant {
+    justify-content: center;
+  }
+  #restaurant .cards {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    width: 100%;
+  }
+  #restaurant .cards .card__content {
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .title__menu {
+    justify-content: center;
+  }
+  .title__menu .card__like {
+    margin-left: 30px;
+  }
+
+  .menu {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu__content {
+    width: 340px;
+  }
+
+  .food__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 .button1 {
   width: 200px;
   border-radius: 25px;

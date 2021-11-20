@@ -1,0 +1,23 @@
+.title__menu {
+    justify-content: center;
+
+    .card__like {
+        margin-left: 30px;
+    }
+}
+
+.menu {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu__content {
+    width: 340px;
+}
+
+.food__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
