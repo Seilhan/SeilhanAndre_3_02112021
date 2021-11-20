@@ -73,10 +73,12 @@
         justify-content: flex-start;
         align-items: center;
         box-shadow: 7px 14px 20px 0px rgb(234 234 234);
+        cursor: pointer;
 
         &:hover {
             background-color: #F5EDFF;
         }
+
     }
 
     .fonction__list__numb {

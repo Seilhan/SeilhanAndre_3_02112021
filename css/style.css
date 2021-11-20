@@ -122,6 +122,7 @@ footer {
   justify-content: flex-start;
   align-items: center;
   box-shadow: 7px 14px 20px 0px #eaeaea;
+  cursor: pointer;
 }
 #fonction .fonction__list:hover {
   background-color: #F5EDFF;
@@ -569,6 +570,7 @@ a.button {
 }
 .button1:hover {
   transform: scale(1.15);
+  transition: 0.15s;
 }
 
 .card__like {
