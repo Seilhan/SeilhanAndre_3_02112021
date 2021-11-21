@@ -148,11 +148,17 @@
         box-shadow: 7px 14px 20px 0px #eaeaea;
         text-decoration: none;
         color: inherit;
+
+        &:hover {
+
+            transform: scale(1.02);
+            transition: 45ms;
+        }
     }
 
     .card__photo {
         height: 175px;
-        width: 100%;
+        // width: 100%;
         object-fit: cover;
         object-position: bottom;
 

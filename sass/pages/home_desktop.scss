@@ -17,3 +17,8 @@
         align-items: flex-end;
     }
 }
+
+.card:hover {
+    transform: scale(1.02);
+    transition: 45ms;
+}
