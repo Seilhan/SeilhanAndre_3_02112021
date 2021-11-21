@@ -10,12 +10,16 @@
 // Menu
 @import "pages/menu.scss";
 
-
 @media (min-width: 992px) {
     @import "header_footer_desktop.scss";
     @import "pages/home_desktop.scss";
     @import "pages/menu_desktop.scss";
 }
+
+// @media (min-width: 768px) and (max-width:991px) {
+//     @import "pages/home_tablet.scss";
+// }
+
 
 
 
