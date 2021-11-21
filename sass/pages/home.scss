@@ -79,6 +79,10 @@
             background-color: #F5EDFF;
         }
 
+        &:hover i {
+            color: #9356DC;
+        }
+
     }
 
     .fonction__list__numb {
@@ -148,6 +152,7 @@
         box-shadow: 7px 14px 20px 0px #eaeaea;
         text-decoration: none;
         color: inherit;
+        flex: 1;
 
         &:hover {
 
@@ -158,7 +163,7 @@
 
     .card__photo {
         height: 175px;
-        // width: 100%;
+        width: 100%;
         object-fit: cover;
         object-position: bottom;
 

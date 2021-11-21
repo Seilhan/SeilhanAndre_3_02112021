@@ -1,3 +1,12 @@
+#explor h1 {
+    width: 100%;
+}
+
+#explor p.explor__p {
+    width: 100%;
+}
+
+
 #fonction ol {
     flex-direction: row;
 }
@@ -21,4 +30,22 @@
 .card:hover {
     transform: scale(1.02);
     transition: 45ms;
+}
+
+.footer__link {
+    display: flex;
+    gap: 30px;
+}
+
+#fonction,
+.restaurant__content {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    align-items: center;
+}
+
+.restaurant__content {
+    padding: 0 20px;
 }
