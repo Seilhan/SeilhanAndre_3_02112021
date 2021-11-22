@@ -1,9 +1,41 @@
-.center {
+.loader {
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     text-align: center;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    background-color: white;
+    z-index: 100;
+    transform: translateX(100%);
+    animation: loader 2s linear;
+}
+
+@keyframes loader {
+    0% {
+        transform: translateX(0);
+
+    }
+
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+    99% {
+        transform: translateX(0);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: translateX(100%);
+
+    }
 }
 
 .ring {
