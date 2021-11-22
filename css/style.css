@@ -67,7 +67,7 @@ footer {
   background-color: white;
   z-index: 100;
   transform: translateX(100%);
-  animation: loader 2s linear;
+  animation: loader 3s linear;
 }
 
 @keyframes loader {
@@ -94,18 +94,31 @@ footer {
   animation: ring 2s linear infinite;
 }
 
+.ring:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.9);
+}
+
 @keyframes ring {
   0% {
     transform: rotate(0deg);
     box-shadow: 1px 5px 2px #9356DC;
+    transition-duration: 50ms;
   }
   50% {
-    transform: rotate(180deg);
+    transform: rotate(90deg);
     box-shadow: 1px 5px 2px #FF79DA;
+    transition-duration: 150ms;
   }
   100% {
     transform: rotate(360deg);
     box-shadow: 1px 5px 2px #99E2D0;
+    transition-duration: 250ms;
   }
 }
 #search {
