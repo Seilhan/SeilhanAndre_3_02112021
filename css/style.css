@@ -54,6 +54,37 @@ footer {
   text-decoration: none;
 }
 
+.center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.ring {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  animation: ring 2s linear infinite;
+}
+
+@keyframes ring {
+  0% {
+    transform: rotate(0deg);
+    box-shadow: 1px 5px 2px #9356DC;
+  }
+  50% {
+    transform: rotate(180deg);
+    box-shadow: 1px 5px 2px #FF79DA;
+  }
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 1px 5px 2px #99E2D0;
+  }
+}
 #search {
   display: flex;
   justify-content: center;
