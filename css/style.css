@@ -247,7 +247,7 @@ footer {
 }
 .cards .card:hover {
   transform: scale(1.02);
-  transition: 45ms;
+  transition: 0.3s;
 }
 .cards .card__photo {
   height: 175px;
@@ -706,8 +706,10 @@ a.button {
   cursor: pointer;
 }
 .button1:hover {
-  transform: scale(1.15);
-  transition: 0.15s;
+  transform: scale(1.02);
+  transition: 0.3s;
+  background: #ff88de;
+  box-shadow: 1px 4px 14px 1px black;
 }
 
 .card__like {

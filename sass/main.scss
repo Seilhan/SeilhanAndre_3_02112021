@@ -36,8 +36,10 @@
     cursor: pointer;
 
     &:hover {
-        transform: scale(1.15);
-        transition: 0.15s;
+        transform: scale(1.02);
+        transition: 0.3s;
+        background: lighten(#ff79da, 3);
+        box-shadow: 1px 4px 14px 1px black;
     }
 }
 
